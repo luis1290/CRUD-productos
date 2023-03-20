@@ -1,0 +1,150 @@
+.header {
+  width: 100vw;
+  margin: 1rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.App.blur {
+  filter: blur(3px);
+  /* Desenfoque */
+  opacity: 0.5;
+  /* Opacidad reducida */
+}
+
+.container-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form {
+  width: 250px;
+  display: grid;
+  gap: 1rem;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 1rem;
+  position: fixed;
+  top: 20%;
+  right: 40%;
+  background-image: url('5315093.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  border: 1px solid black;
+}
+
+.input {
+  display: grid;
+  gap: 1rem;
+}
+
+
+
+.conteiner-card {
+  width: 70vw;
+  display: grid;
+
+  gap: 1rem;
+  grid-auto-rows: 15rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  padding: 1rem;
+}
+
+.cardProduct {
+  width: 240px;
+  height: 240px;
+  display: grid;
+  border: 2px solid black;
+  border-radius: 15px;
+  gap: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-image: url('5315093.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  color: #073b4c;
+}
+
+.containerBtn {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.btnDelete {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 0, 0, 0.669);
+  width: 40px;
+}
+
+
+.btnDelete:hover {
+  cursor: pointer;
+
+}
+
+.btnUpdate {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 21, 255, 0.669);
+  width: 40px;
+}
+
+.btnUpdate:hover {
+  cursor: pointer;
+
+}
+
+.btnAdd {
+  width: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(0, 21, 255, 0.669);
+}
+
+.btnAdd:hover {
+  cursor: pointer;
+}
+
+.formTitle {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: end;
+}
+
+.btnCloseForm {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 0, 0, 0.669);
+}
+
+.btnSubmit {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 21, 255, 0.669);
+  color: white;
+}
+
+.inputText {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* breackpoint */
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .form {
+    position: fixed;
+    top: 10%;
+    right: 9%;
+  }
+}

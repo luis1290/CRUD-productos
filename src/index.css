@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 0;
+}
+li{
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: url('5562006.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
