@@ -9,7 +9,7 @@ li{
 
 body{
   font-family: 'Roboto', sans-serif;
-  background-image: url('5562006.jpg');
+  background-image: url('/public/5562006.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

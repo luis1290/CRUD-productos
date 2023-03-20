@@ -28,7 +28,7 @@
   position: fixed;
   top: 20%;
   right: 40%;
-  background-image: url('5315093.jpg');
+  background-image: url('/public/5315093.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -63,7 +63,7 @@ input {
   gap: 1rem;
   padding: 1rem;
   text-align: center;
-  background-image: url('5315093.jpg');
+  background-image: url('/public/5315093.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
